@@ -1,7 +1,7 @@
 {
     "name": "FalloutRP-Launcher",
     "preductname": "FalloutRP Launcher",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "Launcher Mincraft pour le serveur FalloutRP",
     "main": "src/app.js",
     "author": {
@@ -14,7 +14,7 @@
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://cdn.discordapp.com/attachments/1229796346064535555/1231628204414996490/logo.png?ex=66aa58a6&is=66a90726&hm=080d2674bb29c2c44c2ca4cf9454060a07c4babd2a4f2f66fda2299b6699fcf5&"
+        "icon": "node build.js --icon=https://staticdelivery.nexusmods.com/mods/1151/images/thumbnails/10080-0-1455866940.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
