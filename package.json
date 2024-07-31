@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.7",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "FalloutRP-Launcher",
+    "preductname": "FalloutRP Launcher",
+    "version": "2.0.8",
+    "description": "Launcher Mincraft pour le serveur FalloutRP",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "luuxis, filflo_OP, Inc.",
         "email": "contact@luuxis.fr",
         "url": "https://github.com/luuxis"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "https://metro2033rp.wstr.fr/forp/",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://cdn.discordapp.com/attachments/1229796346064535555/1231628204414996490/logo.png?ex=66aa58a6&is=66a90726&hm=080d2674bb29c2c44c2ca4cf9454060a07c4babd2a4f2f66fda2299b6699fcf5&"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+github.com/filflo1500000/FalloutRP-Launcher.git"
     }
 }
